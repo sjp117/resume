@@ -1,1 +1,1 @@
-This is the source code of my resume that I make available for my peers and other aspiring academics to reference when constructing their own resume.
+This is the source code of my resume that I make available for my peers and other academics to reference when constructing their own resume.
