@@ -1,0 +1,8 @@
+# ignore everything
+*
+
+# don't ignore these
+!.gitignore
+!park_resume.tex
+!resume.cls
+!park_resume.pdf
