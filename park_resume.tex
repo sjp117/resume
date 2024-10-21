@@ -44,35 +44,38 @@
 \usepackage{kotex}
 \usepackage[style=iso]{datetime2}
 %\usepackage{ragged2e}
-\usepackage[bottom]{footmisc} 
+%\usepackage[bottom]{footmisc} 
 \usepackage{enumitem}
+\usepackage{fancyhdr}
 
 %----------------------------------------------------------------------------------------
 %	HEADER WITH NAME AND CONTACT INFORMATION
 %----------------------------------------------------------------------------------------
 
 \name{Sungjoon Park \fontsize{11pt}{12pt}\selectfont 
-박성준\rlap{\hspace*{1.7in}\normalfont\today}} % Your name 
+박성준} % Your name 
 
 \address{
     \faMapMarker{ College Station, TX}
 	\href{https://github.com/sjp117}{\faGithub{ github.com/sjp117}}
 %	\href{https://sjp117.gitlab.io}{\faHome{ sjp117.gitlab.io}}
-	\href{mailto:sungjoon.park@tamu.edu}{\faEnvelope{ sungjoon.park@tamu.edu}}
+	\href{mailto:sjp30117@gmail.com}{\faEnvelope{ sjp30117@gmail.com}}
 	\faPhone{ +1 (979) 422-1264}
 }
 
 \begin{document}
-    
+
+\fancyhead[RO,LE]{\today}
+
 %----------------------------------------------------------------------------------------
 %	OBJECTIVE SECTION; CONTENT SHOULD CATOR TO EMPLOYER
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Objective}
-
-	
-	
-\end{rSection}
+%\begin{rSection}{Objective}
+%
+%	
+%	
+%\end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
@@ -80,13 +83,13 @@
 
 \begin{rSection}{Education}
     
-    {\textbf{Texas A\&M University}, \ College Station, TX \hfill {December 
+    {\textbf{Texas A\&M University}, \ College Station, Texas \hfill {December 
     2022}
-    \\ \textit {Master of Science in Experimental Psychology, with Thesis}}
+    \\ \textit {Master of Science in Psychological Sciences with Thesis}}
 
     {\textbf{University of Waterloo}, \ Ontario, Canada \hfill 
     {June 2020}
-    \\ \textit {Bachelor of Arts in Psychology, Minor in Philosophy, Cognitive 
+    \\ \textit {Bachelor of Arts in Psychology, with Thesis, Minor in Philosophy \& Cognitive 
     Science}}
 
 \end{rSection}
@@ -100,7 +103,7 @@
     {\bf \href{https://burtelab.sites.tamu.edu/}{Spatial Thinking \& STEM 
     Learning Lab}, 
         Texas A\&M University}
-    \hfill { 2020 - Present}
+    \hfill { 2020 - 2023}
     \\PI: Dr. Heather Burte
     \\Roles: Graduate Assistant \& Researcher
     
@@ -110,15 +113,21 @@
         \item \emph{Master's Thesis}: Relationship between Perspective Taking 
         with Space and People.
             \begin{itemize}
-                \item Designed and conducted research to examine the use of 
-                perspective taking 
-                ability in spatial and social (mentalizing) context.
+                \item Designed and conducted research to examine the use of perspectives in both spatial and social contexts.
+                \item Collected and analyzed online and in-person survey and behavioral data.
+                \item Data wrangling and visualization.
+                \item Conducted statistical analyses with correlations, linear regression, and mixed effects models.
+                \item Conducted literature review. Reading and summarizing past research studies to formulate new hypotheses and research questions.
+                \item Used Unity to create virtual environment for study stimuli.
+                \item Led and managed up to two research assistants. Delegating tasks, mentoring, and giving feedback.
+                \item Gave spoken and poster presentations in conferences and university.
+                \item R Scripts, figures, and manuscript available on \href{https://github.com/sjp117/spatialSocialPerspectiveTaking}{GitHub}.
             \end{itemize}
-        \item Research into evaluating North pointing ability using photographs 
-        of the Texas A\&M University Campus.
+        \item Assisted in research into human directional orientation ability.
         \item Assisted in formulation of discussion topics and experiments for 
         a Human Cognitive Processes course as part of a Presidential 
         Transformational Teaching Grant project.
+        \item Involved in recruitment, management, training and evaluations of research assistants.
         
     \end{itemize}
     
@@ -130,12 +139,15 @@
     
     \begin{itemize}[nosep]
         
+        \item The project focused on developing a synchronized mobile EEG and eye tracking system to research brain processes during complex locomotor navigation.
         \item Research into how the brain is able to process information for 
         navigating complex terrain.
-        \item Develop new methods for wirelessly measuring human brain and body 
-        dynamics during gait.
+        \item Development of new methods for wirelessly measuring human brain and body 
+        dynamics during motion.
+        \item Learned to operate gait (human motion) research hardware \& software (Motek) and analysis pipeline.
         \item Directed and trained 3 undergraduate research assistants to 
-        develop computerized experiments.
+        develop experiments using the Python programming language and the Psychopy package.
+        \item Involved in the recruitment process of research assistants.
         
     \end{itemize}
     
@@ -148,18 +160,22 @@
     \begin{itemize}[nosep]
         
         \item \emph{Undergraduate Thesis}: 
-        \href{https://github.com/sjp117/Undergrad_Projects/tree/master/mentalModelUpdatingPupil}{Mental
-         Model Updating and Pupil Response.}
+        Mental Model Updating and Pupil Response.
             \begin{itemize}
                 \item Designed and conducted research on pupillary response to 
                 belief change.
+                \item Programmed computerized eye tracking task using Python and the psychopy library.
+                \item Self-driven to learn how to program (R \& Python) and use the Linux computing environment.
+                \item Took initiative to self-learn and use niche eye-tracking and monitor hardware.
+                \item R \& Python codes, and manuscript available on \href{https://github.com/sjp117/Undergrad_Projects/tree/master/mentalModelUpdatingPupil}{GitHub}.
             \end{itemize}
-        \item Assisted in two experiments that contributed to Master's theses.
+        \item Assisted in two projects that contributed to Master's theses.
         
     \end{itemize}
     
 \end{rSection}
 
+\break
 
 \begin{rSection}{Teaching Experience}
     
@@ -169,52 +185,58 @@
     
     \begin{itemize}[nosep]
         
-        \item Assisted and instructed labs for undergraduate psychology 
-        statistics and research methods courses.
+        \item I assisted and instructed labs for undergraduate
+        psychology statistics, research methods, and scientific
+        writing courses.
         
     \end{itemize}
 
-    Lab Trainer, 2.5 Semesters
+    Lab Trainer, 3 Semesters
     
     \begin{itemize}[nosep]
         
         \item Trained, up to 9, undergraduate research assistants per 
-        semester in the Spatial Thinking \& STEM Learning Lab.
-        \item Introductory R Tutorial.
+        semester in a research lab on how to use R and RStudio.
+        \item Students learned to produce descriptive statistics, visualizations, and conduct correlation, t-tests, and ANOVA tests.
         
     \end{itemize}
     
 \end{rSection}
 
 %\break
-
-\begin{rSection}{Learning Experience}
-    
-    \begin{tabular}{ @{} >{}l @{\hspace{3ex}} l }
-        
-        Fall 2021 \ & {Basic Training Course on Gait Analysis and Research with 
-        the \href{https://www.motekmedical.com/solution/m-gait/}{M-Gait}, Motek}
-        
-        \\
-        
-        Summer 2021 \ & {Computational Neuroscience, 
-        \href{https://academy.neuromatch.io/home}{Neuromatch Academy}}
-        
-    \end{tabular}
-    
-\end{rSection}
+%
+%\begin{rSection}{Learning Experience}
+%    
+%    \begin{tabular}{ @{} >{}l @{\hspace{3ex}} l }
+%        
+%        Fall 2021 \ & {Basic Training Course on Gait Analysis and Research with 
+%        the \href{https://www.motekmedical.com/solution/m-gait/}{M-Gait}, Motek}
+%        
+%        \\
+%        
+%        Summer 2021 \ & {Computational Neuroscience, 
+%        \href{https://academy.neuromatch.io/home}{Neuromatch Academy}}
+%        
+%    \end{tabular}
+%    
+%\end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	SKILLS SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Technical Skills}
+\begin{rSection}{Skills}
     
     \begin{tabular}{ @{} >{\bfseries}l @{\hspace{3ex}} l }
         
-        Programming: \ & R, Python \\
+        Programming: \ & R, Python, C++ \\%, Bash \\
         Software \& Tools: 
-        & Qualtrics, Psychopy, FSL, Linux, Command Line, git, \LaTeX\\
+        & Linux, CLI, git, SQL, SPSS, Microsoft Office, Qualtrics, 
+        \LaTeX, Tableau, Power BI\\
+        Statistics: \ & Regression (linear, generalized, multiple, hierarchical), Structural Equation Modeling (CFA), \\
+        \ & Mixed Effects Model, Common Statistical Tests (Correlation, t-test, 
+        ANOVA), \\
+        \ & Cluster Analysis, Descriptive Statistics \\
         Hardware: & {\textbf{Eye Tracking: }}CRS ltd. LiveTrack, SR Research 
         EyeLink 1000 Plus \\
         & {\textbf{Gait Tracking: }}Motek M-Gait \\
@@ -231,22 +253,21 @@
 \begin{rSection}{Publication}
 	\setlength{\hangingindent}{1.27cm}
     
-    \begin{hangingpar}
+    % \begin{hangingpar}
         
-        \textbf{Park. S.}, Watanabe. B., Burte. H., (in-preparation). 
-        Title: TBD. 
-        \em{Paper submitted to the
-            \href{https://cognitivesciencesociety.org/cogsci-2023/}{CogSci 
-            2023} Annual Conference.}
+    %     \textbf{Park. S.}, Watanabe. B., Burte. H., (in-preparation). 
+    %     Title: TBD. 
+    %     \em{Paper submitted to the
+    %         \href{https://cognitivesciencesociety.org/cogsci-2023/}{CogSci 
+    %         2023} Annual Conference.}
         
-    \end{hangingpar}
+    % \end{hangingpar}
 	
 	\begin{hangingpar}
 		
 		\textbf{Park. S.}, Watanabe. B., Burte. H., (2022). 
-		Perspective taking and reference frames for spatial and social cognition. 
-		\em{Paper submitted to the
-			\href{https://cognitivesciencesociety.org/cogsci-2022/}{CogSci 2022} Annual Conference.}
+		\href{https://escholarship.org/uc/item/6wq5x6nn}{Perspective taking and reference frames for spatial and social cognition.} 
+		\em{Paper submitted to the CogSci 2022 Annual Conference.}
 		
 	\end{hangingpar}
 	
@@ -344,7 +365,7 @@
     
     % duration should vary with opt / STEM extention eligibility
     Eligible to work in the U.S. without sponsorship for 36 months with 
-    Optional Practical Training (OPT).
+    Optional Practical Training (OPT) \& STEM Extension. Expires: 01/30/2026.
     
 \end{rSection}
 
